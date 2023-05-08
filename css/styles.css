@@ -55,14 +55,16 @@ body {
 .page-header {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
   border-bottom: 1px solid #e7e9fc;
 }
 
 .page-header-container {
   display: flex;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .page-navigation {
@@ -98,6 +100,7 @@ body {
 .contact-list {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .contact-mail {
@@ -106,7 +109,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-right: 40px;
 }
 
 .contact-tel {
