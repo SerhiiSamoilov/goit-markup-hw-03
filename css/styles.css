@@ -57,6 +57,7 @@ body {
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .page-header-container {
@@ -129,6 +130,11 @@ body {
   background-color: #2e2f42;
 }
 
+.slogan-container {
+  align-items: center;
+  padding: 164px 472px 292px 472px;
+}
+
 .main-title {
   font-weight: 700;
   font-size: 56px;
@@ -138,6 +144,14 @@ body {
   color: #ffffff;
 }
 .modal-open-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
+  display: block;
+  padding: 16px 32px;
+  min-width: 168px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -167,6 +181,27 @@ body {
 }
 /*  =================/slogan================*/
 
+/* ================= our advantages=================== */
+.second-container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 120px;
+}
+
+.our-advantages {
+  margin-top: 144px;
+}
+
+.advantages-list {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+/* ================== /our advantages==================== */
+
 /*  What are we doing*/
 
 .suptitle {
@@ -193,10 +228,8 @@ body {
 
 .our-team {
   background-color: #f4f4fd;
-}
-
-.container-suptitle {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .employees-list-name {
@@ -230,7 +263,9 @@ body {
   margin-bottom: 32px;
 }
 
-.employees-list-text-content
+.employees-list-text-content {
+  margin: 0px 16px 32px;
+}
 
 /* footer */
 
