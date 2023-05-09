@@ -60,13 +60,13 @@ body {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-transform: uppercase;
-  /* margin-right: 76px; */
 }
 
 .logo-header {
   margin-right: 76px;
 }
 .logo-footer {
+  display: inline-block;
   margin-bottom: 16px;
 }
 
