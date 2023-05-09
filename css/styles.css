@@ -320,6 +320,11 @@ body {
 
 /*====================== portfolio =================*/
 
+.filter {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .menu-filter-btn {
   font-weight: 500;
   font-size: 16px;
@@ -329,14 +334,14 @@ body {
   background-color: #f4f4fd;
   padding: 12px 24px;
   border-radius: 4px;
-  border: 1px solid #e7e9fc;
+  border: var(--border-menu-filter-btn);
 }
 
 .menu-filter-btn:hover,
 .menu-filter-btn:focus {
   background-color: #404bbf;
   color: #ffffff;
-  border: var(--border-menu-filter-btn);
+  border: 1px solid transparent;
 }
 
 .portfolio-list {
@@ -344,7 +349,6 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  padding-bottom: 120px;
 }
 
 .portfolio-list-item {
@@ -371,8 +375,7 @@ body {
 .menu-filter {
   display: flex;
   justify-content: center;
-  padding-top: 96px;
-  padding-bottom: 120px;
+  margin-bottom: 72px;
   gap: 24px;
 }
 
