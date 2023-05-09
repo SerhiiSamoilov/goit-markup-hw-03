@@ -51,7 +51,35 @@ body {
   padding-right: 15px;
 }
 
-/* ==========header========== */
+/* ================= COMPONENTS ================= */
+.logo {
+  font-family: var(--secondary-font-family);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  text-transform: uppercase;
+  /* margin-right: 76px; */
+}
+
+.logo-header {
+  margin-right: 76px;
+}
+.logo-footer {
+  margin-bottom: 16px;
+}
+
+.logo-second-word-footer {
+  color: var(--logo-second-word-footer);
+}
+
+.logo-second-word-header {
+  color: var(--logo-second-word-header);
+}
+/* ================= /COMPONENTS ================= */
+
+/* ================== header ===================== */
 .page-header {
   display: flex;
   align-items: center;
@@ -128,11 +156,7 @@ body {
 /*  =================slogan================*/
 .slogan {
   background-color: #2e2f42;
-}
-
-.slogan-container {
-  align-items: center;
-  padding: 164px 472px 292px 472px;
+  padding: 188px 0;
 }
 
 .main-title {
@@ -140,8 +164,10 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   color: #ffffff;
+  max-width: 496px;
 }
 .modal-open-btn {
   margin-left: auto;
@@ -149,7 +175,9 @@ body {
   margin-top: 48px;
   display: block;
   padding: 16px 32px;
-  min-width: 168px;
+  min-width: 169px;
+  min-height: 56px;
+  border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 500;
@@ -182,27 +210,32 @@ body {
 /*  =================/slogan================*/
 
 /* ================= our advantages=================== */
-.second-container {
-  width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-bottom: 120px;
-}
 
 .our-advantages {
-  margin-top: 144px;
+  padding: 120px 0;
 }
 
 .advantages-list {
   display: flex;
   align-items: center;
-  column-gap: 24px;
+  gap: 24px;
 }
+
+.advantages-list-item {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.advantages-title {
+  margin-bottom: 8px;
+}
+
 /* ================== /our advantages==================== */
 
-/*  What are we doing*/
+/* ==================== What are we doing ================ */
+
+.what-are-we-doing {
+  padding-bottom: 120px;
+}
 
 .suptitle {
   font-weight: 700;
@@ -217,7 +250,7 @@ body {
 
 .gallery-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .gallery-list-item {
@@ -251,11 +284,12 @@ body {
 
 .team-gallery-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .team-gallery-list-item {
   flex-basis: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .employees-list-text-content {
@@ -268,6 +302,8 @@ body {
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-message {
@@ -276,36 +312,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-top: 16px;
 }
 
-.color {
-  color: #2e2f42;
-}
-
-.logo {
-  font-family: var(--secondary-font-family);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: #4d5ae5;
-  text-transform: uppercase;
-  margin-right: 76px;
-}
-
-.logo-second-word-footer {
-  color: var(--logo-second-word-footer);
-}
-
-.logo-second-word-header {
-  color: var(--logo-second-word-header);
-}
-
-.footer-container {
-  align-items: center;
-  padding: 100px 1020px 100px 156px;
-}
 /*====================== /footer ================*/
 
 /* portfolio */
