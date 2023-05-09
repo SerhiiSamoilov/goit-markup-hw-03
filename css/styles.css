@@ -312,6 +312,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 /*====================== /footer ================*/
@@ -325,6 +326,7 @@ body {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: #f4f4fd;
+  padding: 12px 24px;
 }
 
 .menu-filter-btn:hover,
@@ -347,4 +349,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.menu-filter {
+  display: flex;
+  justify-content: center;
+  padding-top: 96px;
+  padding-bottom: 72px;
+  gap: 24px;
 }
